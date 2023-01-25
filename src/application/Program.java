@@ -17,11 +17,10 @@ public class Program {
         int n = input.nextInt();
         System.out.println();
 
-        Employee employee = new Employee();
         List<Employee> list = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
-            System.out.println("Employee #" + (i + 1) + ": ");
+        for (int i = 1; i <= n; i++) {
+            System.out.println("Employee #" + i + ": ");
 
             System.out.print("id: ");
             int id = input.nextInt();
@@ -46,9 +45,9 @@ public class Program {
         System.out.print("Enter the employee id that will have salary increase: ");
         int id = input.nextInt();
         Integer pos = position(list, id);
-        if (pos == null){
+        if (pos == null) {
             System.out.println("This ID doesn't exist!");
-        }else{
+        } else {
             System.out.print("Enter the percentage: ");
             double percent = input.nextDouble();
             list.get(pos).increaseSalary(percent);
@@ -56,10 +55,9 @@ public class Program {
 
         System.out.println();
         System.out.println("List of employees: ");
-        for(Employee obj : list){
+        for (Employee obj : list) {
             System.out.println(obj);
         }
-
 
 
     }
