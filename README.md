@@ -26,6 +26,6 @@ aumento por porcentagem dada.
 - [x] Uso de stream(), filter(), findFirst(), orElse(),
 - [x] Lógica da programação;
 
-------------------------------------------
+--------------------------------------------
 
 Disponibilizado por [dionatan07](https://www.linkedin.com/in/dionatandeandrade/ "LinkedIn").
